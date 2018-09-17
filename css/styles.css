@@ -60,7 +60,9 @@ body {
 	min-height: 300px;
 }
 
-
-.btn.sharp {
-  border-radius:0;
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
 }
+
