@@ -30,7 +30,7 @@
                           <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"/> Contact</a></li>
                     </ul>
                     <span class="navbar-text">
-                        <a data-toggle="modal" data-target="#loginModal">
+                        <a id="Login">
                             <span class="fa fa-sign-in">Login
                             </span>
                         </a>
@@ -83,11 +83,11 @@
         <div class="modal-dialog modal-lg" role="content">
             <!-- Modal content-->
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header modal-header-color">
                     <h4 class="modal-title">Reserve a Table </h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body modal-body-color">
                     
                     
                     <form>
@@ -196,8 +196,8 @@
                     <img src="img/logo.png"/>
                 </div>
                 <div class="col-sm-6 col-md-3 align-self-center">
-                    <a href="#ordercard">
-                            <button role="button" type="submit" data-toggle="modal" data-target="#ReservationModal" class="btn col-sm-6 btn-warning align-bottom">Reserve</button></a>
+                    <a href="#" id="ordercard">
+                            <button role="button" type="submit"  class="btn col-sm-6 btn-warning align-bottom">Reserve</button></a>
                         </div>
                          
             </div>
@@ -358,6 +358,17 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
+
+             $('#Login').click(function() {
+              $('#loginModal').modal('toggle');
+            });
+
+             $('#ordercard').click(function() {
+                
+              $('#ReservationModal').modal('toggle');
+              
+            });
+
             $('#myCarousel').carousel({interval: 2000});
 
             $('#carouselButton').click(function(){

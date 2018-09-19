@@ -3,6 +3,13 @@ $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 
+$modalbackground: #d1c5e8;
+$modaltop: #5133a4;
+$Xbuttonbackground: #a896ca;
+$modalHeaderText: floralwhite;
+
+
+
 // Height variables
 $carousel-item-height: 300px;
 $pad-up-dn: 0px;
@@ -75,4 +82,27 @@ body{
     right:0px;
     position: absolute;
     bottom: 0px;
+}
+
+@mixin modalbackground {
+	background-color: $modalbackground !important;
+}
+@mixin modaltop {
+	background-color: $modaltop !important;
+	color: $modalHeaderText !important;
+}
+
+@mixin Xbuttonbackground {
+	color: $modalHeaderText !important;
+}
+
+.modal-body {
+	@include modalbackground;
+}
+.modal-header {
+	@include modaltop;
+}
+
+.close {
+	@include Xbuttonbackground;
 }
