@@ -38,8 +38,8 @@ $pad-left-right: 0px;
 
 .jumbotron {
     @include zero-margin(70px,30px);
-    background: $background-light ;
-    color:floralwhite;
+    background: $background-light !important;
+    color:floralwhite !important;
 }
 
 address{
@@ -106,3 +106,4 @@ body{
 .close {
 	@include Xbuttonbackground;
 }
+
