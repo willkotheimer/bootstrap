@@ -12,21 +12,21 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
+            comment: "I love this Indian Uthappam!",
             author: "John Lemon",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+            comment: "Perfect Italian Pizza!",
             author: "Paul McVites",
             date: "2014-09-05T17:57:28.556094Z"
             },
             {
             id: 2,
             rating: 3,
-            comment: "Eat it, just eat it!",
+            comment: "You will love it!",
             author: "Michael Jaikishan",
             date: "2015-02-13T17:57:28.556094Z"
             },
@@ -57,21 +57,21 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
+            comment: "I Love this deep fried Zuchini!",
             author: "John Lemon",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+            comment: "!",
             author: "Paul McVites",
             date: "2014-09-05T17:57:28.556094Z"
             },
             {
             id: 2,
             rating: 3,
-            comment: "Eat it, just eat it!",
+            comment: "Perfect Zuchini!",
             author: "Michael Jaikishan",
             date: "2015-02-13T17:57:28.556094Z"
             },
@@ -103,21 +103,21 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
+            comment: "I love their Vadonut!",
             author: "John Lemon",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+            comment: "As good as Duncan!",
             author: "Paul McVites",
             date: "2014-09-05T17:57:28.556094Z"
             },
             {
             id: 2,
             rating: 3,
-            comment: "Eat it, just eat it!",
+            comment: "What makes it good it how they cook it!",
             author: "Michael Jaikishan",
             date: "2015-02-13T17:57:28.556094Z"
             },
@@ -149,21 +149,21 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
+            comment: "I love the cheese cake the best!",
             author: "John Lemon",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+            comment: "This cheesecake if I had Cheesecake factory it would be better, but still good!",
             author: "Paul McVites",
             date: "2014-09-05T17:57:28.556094Z"
             },
             {
             id: 2,
             rating: 3,
-            comment: "Eat it, just eat it!",
+            comment: "Voila Instant Cheescake!",
             author: "Michael Jaikishan",
             date: "2015-02-13T17:57:28.556094Z"
             },
