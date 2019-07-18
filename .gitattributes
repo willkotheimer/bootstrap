@@ -1,3 +1,4 @@
 *.css
 *.html
 coursera-class/bootstrap/*
+*.html linguist-language=Javascript
