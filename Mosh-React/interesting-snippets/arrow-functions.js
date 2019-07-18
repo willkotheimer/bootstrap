@@ -24,7 +24,8 @@ const activeJobs2 = jobs.filter(job => job.isActive);
 
 const person = {
   talk() {
-    var self = this;
+    //arrow functions don't redefine the this keyword, they inherit from
+    //outside of scope.
     setTimeout(() => {
       console.log("this", this);
     }, 1000);
