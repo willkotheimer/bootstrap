@@ -1,5 +1,4 @@
-//import will not work yet in JS, need to find another 
-//solution
+
 
 import { Person } from './person';
 
@@ -15,5 +14,5 @@ export class Teacher extends Person {
     }
   }
 
-  export { Teacher }
+  
   
