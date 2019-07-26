@@ -1,33 +1,7 @@
-const square = function(number) {
-  return number * number;
-};
+import { Component } from 'react';
 
-console.log(square(5));
+import Teacher, { promote } from './modules/teacher'
 
-const square2 = number => number * number;
+const teacher = new Teacher("Will", "Computer Science");
 
-console.log(square2(5));
-
-const jobs = [
-  { id: 1, isActive: true },
-  { id: 2, isActive: true },
-  { id: 3, isActive: false }
-];
-
-const activeJobs = jobs.filter(function(job) {
-  return job.isActive;
-});
-
-const activeJobs2 = jobs.filter(job => job.isActive);
-
-////
-
-const person = {
-  talk() {
-    var self = this;
-    setTimeout(() => {
-      console.log("this", this);
-    }, 1000);
-  }
-};
-person.talk();
+teacher.teach();
