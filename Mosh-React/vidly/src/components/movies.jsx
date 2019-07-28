@@ -27,13 +27,11 @@ class Movies extends Component {
   };
 
   renderMovies = () => {
-    if (this.state.movies.length === 0) return <p>There are no movies</p>;
-
-    return this.handleMovies();
-  };
-  handleMovies = () => {
+    const { length: count } = this.state.movies;
+    if (count === 0) return <p>There are no movies</p>;
     return (
       <div>
+        <p>There are {count} movies in the database.</p>
         <table className="table">
           <thead>
             <tr>
